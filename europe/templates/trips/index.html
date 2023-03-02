@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Europe Trips</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        Europe Trips
+        Hot reload? no?
+        <ul>
+            {%for trip in trips%}
+                <li>
+                    {{trip}}
+                </li>
+            {%endfor%}
+        </ul>
+    </body>
+</html>
